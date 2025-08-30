@@ -71,7 +71,7 @@ export default function Services() {
       <div className='overflow-hidden'>
         <Slider {...settings}>
           {services.map(({ id, title, desc, img }) => (
-            <div key={id} className='px-2 flex justify-center'>
+            <div key={id} className='w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-2'>
               <ServicesCard title={title} desc={desc} img={img} />
             </div>
           ))}

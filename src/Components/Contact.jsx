@@ -35,15 +35,15 @@ export default function Contact() {
 
             emailjs
             .send(
-                "service_f2nu2n8",    
-                "template_4j0jh8r",   
+                "service_8wxf3ky",    
+                "template_tzz1ert",   
                 {
                 from_name: formData.name,
                 business_name: formData.business,
                 from_email: formData.email,
                 message: formData.message,
                 },
-                "c90O_c1B-nOnalGek"     
+                "5-5FCMrMsW9bDFRm4"     
             )
             .then(
                 (response) => {

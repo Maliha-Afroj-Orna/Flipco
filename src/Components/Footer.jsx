@@ -62,7 +62,7 @@ export default function Footer() {
 For questions, contact hello@flipcoltd.co.uk.`
               )
             }
-            className="mt-2 text-left bg-gray-200 sm:w-auto pl-2 text-black w-full px-2 mr-8 hover:bg-gray-500 hover:text-white rounded text-base sm:text-lg transition"
+            className="mt-2 text-left bg-gray-200 sm:w-auto pl-2 text-black w-32 px-2 mr-8 hover:bg-gray-500 hover:text-white rounded text-base sm:text-lg transition"
           >
             Read More...
           </button>

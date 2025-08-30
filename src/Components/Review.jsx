@@ -68,7 +68,7 @@ const review = [
             <div className='flex-1 min-w-0 w-full lg:mr-2 lg:ml-70'>
               <Slider {...settings}>
                   {review.map(({ id, name, review, subname }) => (
-                  <div key={id} className='px-1'>
+                  <div key={id} className='w-full sm:w-1/2 md:w-1/2 lg:w-1/4 px-2'>
                       <ReviewCard name={name} review={review} subname={subname} />
                   </div>
                   ))}

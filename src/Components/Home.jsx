@@ -1,8 +1,14 @@
 import React from 'react'
+import Hero from './Hero'
+import Header from './Header'
 
 export default function Home() {
   return (
     <>
+        <Hero />
+
+        <Header />
+        
         <div id='home' className='relative w-full h-[80vh] sm:h-[70vh] md:h-[80vh] overflow-hidden'> 
             <img className='absolute w-full h-full object-cover' src="/images/background.jpg" alt="Home Page" />
             
